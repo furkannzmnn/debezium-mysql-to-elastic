@@ -69,7 +69,7 @@ docker-compose exec mysql bash -c 'mysql -u $MYSQL_USER  -p$MYSQL_PASSWORD inven
 ```
 
 ```sql
-INSERT INTO `customers` (`first_name`, `last_name`, `email`) VALUES ('Ahmet', 'Yılmaz', '
+INSERT INTO `customers` (`first_name`, `last_name`, `email`) VALUES ('Ahmet', 'Yılmaz', 'fozmen');
 ```
 
 ## Elasticdeki kayıtları listeleme
